@@ -1,0 +1,241 @@
+2024-01-23 21:58:56,342 - speechbrain.core - INFO - Beginning experiment!
+2024-01-23 21:58:56,342 - speechbrain.core - INFO - Experiment folder: results/voxceleb1_2/speaker_verification_ecapa/<seed>
+2024-01-23 21:58:56,827 - speechbrain.utils.superpowers - DEBUG - actionlib==1.12.1
+angles==1.9.12
+appdirs==1.4.4
+asteroid-filterbanks==0.4.0
+attrs==23.2.0
+audiomentations==0.34.1
+audioread==3.0.1
+beautifulsoup4==4.12.2
+black==19.10b0
+bondpy==1.8.5
+camera_calibration==1.15.2
+camera_calibration_parsers==1.11.13
+catkin==0.7.29
+certifi==2023.11.17
+cffi==1.16.0
+cfgv==3.4.0
+charset-normalizer==3.3.2
+click==8.0.4
+cmake==3.18.4
+cmapy==0.6.6
+contourpy==1.2.0
+controller_manager==0.18.4
+controller_manager_msgs==0.18.4
+cv_bridge==1.13.1
+cycler==0.12.1
+decorator==5.1.1
+diagnostic_analysis==1.9.7
+diagnostic_common_diagnostics==1.9.7
+diagnostic_updater==1.9.7
+distlib==0.3.8
+dynamic_reconfigure==1.6.5
+entrypoints==0.3
+exceptiongroup==1.2.0
+filelock==3.13.1
+flake8==3.7.9
+fonttools==4.47.0
+fsspec==2023.12.2
+gazebo_plugins==2.8.7
+gazebo_ros==2.8.7
+gdown==4.7.1
+gencpp==0.6.6
+geneus==2.2.6
+genlisp==0.4.16
+genmsg==0.5.17
+gennodejs==2.0.1
+genpy==0.6.16
+huggingface-hub==0.20.2
+HyperPyYAML==1.2.2
+identify==2.5.33
+idna==3.6
+image_geometry==1.13.1
+importlib-resources==6.1.1
+iniconfig==2.0.0
+interactive-markers==1.11.5
+Jinja2==3.1.2
+joblib==1.3.2
+joint_state_publisher==1.12.15
+kdl-parser-py==1.13.3
+kiwisolver==1.4.5
+laser_geometry==1.6.7
+lazy_loader==0.3
+librosa==0.10.1
+llvmlite==0.41.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+mccabe==0.6.1
+message_filters==1.14.13
+mpmath==1.3.0
+msgpack==1.0.7
+MulticoreTSNE==0.1
+networkx==3.2.1
+nlpaug==1.1.11
+nodeenv==1.8.0
+numba==0.58.1
+numpy==1.26.3
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-nccl-cu12==2.18.1
+nvidia-nvjitlink-cu12==12.3.101
+nvidia-nvtx-cu12==12.1.105
+opencv-python==4.9.0.80
+packaging==23.2
+pandas==2.1.4
+pathspec==0.12.1
+pillow==10.2.0
+platformdirs==4.1.0
+pluggy==1.3.0
+pooch==1.8.0
+pre-commit==3.6.0
+pycodestyle==2.5.0
+pycparser==2.21
+pyflakes==2.1.1
+pygtrie==2.5.0
+pyparsing==3.1.1
+PySocks==1.7.1
+pytest==7.4.0
+python-dateutil==2.8.2
+python_qt_binding==0.4.4
+pytz==2023.3.post1
+PyYAML==6.0.1
+qt-dotgraph==0.4.2
+qt-gui==0.4.2
+qt-gui-cpp==0.4.2
+qt-gui-py-common==0.4.2
+regex==2023.12.25
+requests==2.31.0
+resource_retriever==1.12.7
+rosbag==1.14.13
+rosboost-cfg==1.14.9
+rosclean==1.14.9
+roscreate==1.14.9
+rosgraph==1.14.13
+roslaunch==1.14.13
+roslib==1.14.9
+roslint==0.11.2
+roslz4==1.14.13
+rosmake==1.14.9
+rosmaster==1.14.13
+rosmsg==1.14.13
+rosnode==1.14.13
+rosparam==1.14.13
+rospy==1.14.13
+rosservice==1.14.13
+rostest==1.14.13
+rostopic==1.14.13
+rosunit==1.14.9
+roswtf==1.14.13
+rqt-image-view==0.4.17
+rqt-moveit==0.5.10
+rqt-reconfigure==0.5.4
+rqt-robot-monitor==0.5.14
+rqt-rviz==0.7.0
+rqt_action==0.4.9
+rqt_bag==0.5.1
+rqt_bag_plugins==0.5.1
+rqt_console==0.4.9
+rqt_dep==0.4.9
+rqt_graph==0.4.11
+rqt_gui==0.5.3
+rqt_gui_py==0.5.3
+rqt_launch==0.4.8
+rqt_logger_level==0.4.8
+rqt_msg==0.4.8
+rqt_nav_view==0.5.7
+rqt_plot==0.4.13
+rqt_pose_view==0.5.8
+rqt_publisher==0.4.8
+rqt_py_common==0.5.3
+rqt_py_console==0.4.8
+rqt_robot_dashboard==0.5.7
+rqt_robot_steering==0.5.10
+rqt_runtime_monitor==0.5.7
+rqt_service_caller==0.4.8
+rqt_shell==0.4.9
+rqt_srv==0.4.8
+rqt_tf_tree==0.6.0
+rqt_top==0.4.8
+rqt_topic==0.4.11
+rqt_web==0.4.8
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+rviz==1.13.30
+safetensors==0.4.1
+scikit-learn==1.3.2
+scipy==1.11.4
+seaborn==0.13.1
+sensor-msgs==1.12.8
+sentencepiece==0.1.99
+six==1.16.0
+smach==2.0.3
+smach_ros==2.0.3
+smclib==1.8.5
+soundfile==0.12.1
+soupsieve==2.5
+soxr==0.3.7
+speechbrain==0.5.16
+sympy==1.12
+tf==1.12.1
+tf2_geometry_msgs==0.6.5
+tf2_kdl==0.6.5
+tf2_py==0.6.5
+tf2_ros==0.6.5
+tf_conversions==1.12.1
+threadpoolctl==3.2.0
+timm==0.4.5
+tokenizers==0.15.0
+toml==0.10.2
+tomli==2.0.1
+topic_tools==1.14.13
+torch==2.1.2
+torchaudio==2.1.2
+torchvision==0.16.2
+tqdm==4.66.1
+transformers==4.36.2
+triton==2.1.0
+typed-ast==1.5.5
+typing_extensions==4.9.0
+tzdata==2023.4
+urdfdom-py==0.4.6
+urllib3==2.1.0
+virtualenv==20.25.0
+wget==3.2
+xacro==1.13.20
+yamllint==1.23.0
+zipp==3.17.0
+
+
+2024-01-23 21:58:57,750 - voxceleb_prepare - INFO - 	Creating csv file for the VoxCeleb Dataset..
+2024-01-23 21:58:57,774 - voxceleb_prepare - INFO - 	"Creating csv lists in  results/voxceleb1_2/speaker_verification_ecapa/1234/save/train.csv..."
+2024-01-23 21:58:57,992 - voxceleb_prepare - INFO - 	results/voxceleb1_2/speaker_verification_ecapa/1234/save/train.csv successfully created!
+2024-01-23 21:58:57,993 - voxceleb_prepare - INFO - 	"Creating csv lists in  results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv..."
+2024-01-23 21:58:58,020 - voxceleb_prepare - INFO - 	results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv successfully created!
+2024-01-23 21:58:58,084 - voxceleb_prepare - INFO - preparing enrol csv
+2024-01-23 21:58:58,084 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/rlg/projects/sig/VoxCeleb/SpeakerRec/speaker_verification_cosine.py", line 238, in <module>
+    prepare_voxceleb(
+  File "/home/rlg/projects/sig/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 155, in prepare_voxceleb
+    prepare_csv_enrol_test(
+  File "/home/rlg/projects/sig/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 464, in prepare_csv_enrol_test
+    signal, fs = torchaudio.load(wav)
+  File "/home/rlg/miniconda3/envs/py3.9-sig/lib/python3.9/site-packages/torchaudio/_backend/utils.py", line 204, in load
+    return backend.load(uri, frame_offset, num_frames, normalize, channels_first, format, buffer_size)
+  File "/home/rlg/miniconda3/envs/py3.9-sig/lib/python3.9/site-packages/torchaudio/_backend/soundfile.py", line 27, in load
+    return soundfile_backend.load(uri, frame_offset, num_frames, normalize, channels_first, format)
+  File "/home/rlg/miniconda3/envs/py3.9-sig/lib/python3.9/site-packages/torchaudio/_backend/soundfile_backend.py", line 221, in load
+    with soundfile.SoundFile(filepath, "r") as file_:
+  File "/home/rlg/miniconda3/envs/py3.9-sig/lib/python3.9/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/home/rlg/miniconda3/envs/py3.9-sig/lib/python3.9/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/home/rlg/projects/sig/VoxCeleb/voxceleb2/wav/id10270/5r0dWxy17C8/00001.wav': System error.
