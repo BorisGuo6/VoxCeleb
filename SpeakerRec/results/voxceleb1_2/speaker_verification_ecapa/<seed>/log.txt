@@ -492,3 +492,129 @@ zstandard @ file:///Users/cbousseau/work/recipes/ci_py311_2/zstandard_1678996192
 2024-01-25 21:19:13,539 - voxceleb_prepare - INFO - 	"Creating csv lists in  results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv..."
 2024-01-25 21:19:13,540 - voxceleb_prepare - INFO - 	results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv successfully created!
 2024-01-25 21:19:13,578 - voxceleb_prepare - INFO - preparing enrol csv
+2024-01-25 21:23:21,204 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/speaker_verification_cosine.py", line 238, in <module>
+    prepare_voxceleb(
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 155, in prepare_voxceleb
+    prepare_csv_enrol_test(
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 464, in prepare_csv_enrol_test
+    signal, fs = torchaudio.load(wav)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/utils.py", line 204, in load
+    return backend.load(uri, frame_offset, num_frames, normalize, channels_first, format, buffer_size)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/soundfile.py", line 27, in load
+    return soundfile_backend.load(uri, frame_offset, num_frames, normalize, channels_first, format)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/soundfile_backend.py", line 221, in load
+    with soundfile.SoundFile(filepath, "r") as file_:
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/soundfile.py", line 1205, in _open
+    file_ptr = openfunction(file, mode_int, self._info)
+KeyboardInterrupt
+2024-01-25 21:30:07,656 - speechbrain.core - INFO - Beginning experiment!
+2024-01-25 21:30:07,668 - speechbrain.core - INFO - Experiment folder: results/voxceleb1_2/speaker_verification_ecapa/<seed>
+2024-01-25 21:30:08,405 - speechbrain.utils.superpowers - DEBUG - aiosignal==1.3.1
+attrs==23.1.0
+Automat==22.10.0
+boltons @ file:///Users/cbousseau/work/recipes/ci_py311/boltons_1677965141748/work
+brotlipy==0.7.0
+certifi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3bweqb8byn/croot/certifi_1690232244779/work/certifi
+cffi @ file:///Users/cbousseau/work/recipes/ci_py311/cffi_1677903595907/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+conda @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0cwmmds6q9/croot/conda_1689269929143/work
+conda-content-trust @ file:///Users/cbousseau/work/recipes/ci_py311/conda-content-trust_1677970020347/work
+conda-libmamba-solver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_48qgqxi1ys/croot/conda-libmamba-solver_1685032355439/work/src
+conda-package-handling @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_57h_oo3f_8/croot/conda-package-handling_1685024802254/work
+conda_package_streaming @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4fwljxujl7/croot/conda-package-streaming_1685019683894/work
+constantly==15.1.0
+contourpy==1.1.1
+cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4a_lrlt_rt/croot/cryptography_1686613068564/work
+cycler==0.12.1
+filelock==3.12.4
+fonttools==4.43.1
+frozenlist==1.4.0
+fsspec==2023.10.0
+hyperlink==21.0.0
+idna @ file:///Users/cbousseau/work/recipes/ci_py311/idna_1677906072337/work
+incremental==22.10.0
+Jinja2==3.1.2
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpickle==3.0.2
+jsonpointer==2.1
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+kiwisolver==1.4.5
+libmambapy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_097by3g74m/croot/mamba-split_1685997889336/work/libmambapy
+MarkupSafe==2.1.3
+matplotlib==3.8.0
+mpmath==1.3.0
+msgpack==1.0.7
+networkx==3.2
+numpy==1.26.1
+opensimplex==0.4.5
+packaging @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e946luvhc3/croot/packaging_1678965323926/work
+Pillow==10.1.0
+pluggy @ file:///Users/cbousseau/work/recipes/ci_py311/pluggy_1677906980825/work
+protobuf==4.24.4
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pybind11 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e8uf5j9ob1/croot/pybind11-split_1682965537168/work
+pybind11-global @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e8uf5j9ob1/croot/pybind11-split_1682965537168/work
+pycosat @ file:///Users/cbousseau/work/recipes/ci_py311/pycosat_1677933552468/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ddecjfxr7g/croot/pyopenssl_1678965309681/work
+pyparsing==3.1.1
+PySocks @ file:///Users/cbousseau/work/recipes/ci_py311/pysocks_1677906386870/work
+python-dateutil==2.8.2
+PyTMX==3.32
+PyYAML==6.0.1
+ray==2.7.1
+referencing==0.30.2
+requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_37wt8ycste/croot/requests_1682607533309/work
+rpds-py==0.10.6
+ruamel.yaml @ file:///Users/cbousseau/work/recipes/ci_py311/ruamel.yaml_1677934845850/work
+scipy==1.11.3
+service-identity==23.1.0
+setproctitle==1.3.3
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sympy==1.12
+toolz @ file:///Users/cbousseau/work/recipes/ci_py311/toolz_1677925870232/work
+torch==2.1.0
+torchvision==0.16.0
+tqdm @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ac7zic_tin/croot/tqdm_1679561870178/work
+Twisted==23.8.0
+typing_extensions==4.8.0
+urllib3 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e9usuw__8i/croot/urllib3_1686166332689/work
+zope.interface==6.1
+zstandard @ file:///Users/cbousseau/work/recipes/ci_py311_2/zstandard_1678996192313/work
+
+
+2024-01-25 21:30:08,419 - speechbrain.utils.superpowers - DEBUG - 91d35ab0
+
+
+2024-01-25 21:30:08,420 - voxceleb_prepare - INFO - 	Creating csv file for the VoxCeleb Dataset..
+2024-01-25 21:30:08,432 - voxceleb_prepare - INFO - 	"Creating csv lists in  results/voxceleb1_2/speaker_verification_ecapa/1234/save/train.csv..."
+2024-01-25 21:30:08,433 - voxceleb_prepare - INFO - 	results/voxceleb1_2/speaker_verification_ecapa/1234/save/train.csv successfully created!
+2024-01-25 21:30:08,433 - voxceleb_prepare - INFO - 	"Creating csv lists in  results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv..."
+2024-01-25 21:30:08,433 - voxceleb_prepare - INFO - 	results/voxceleb1_2/speaker_verification_ecapa/1234/save/dev.csv successfully created!
+2024-01-25 21:30:08,461 - voxceleb_prepare - INFO - preparing enrol csv
+2024-01-25 21:31:43,053 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/speaker_verification_cosine.py", line 238, in <module>
+    prepare_voxceleb(
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 155, in prepare_voxceleb
+    prepare_csv_enrol_test(
+  File "/Users/boris/Documents/VoxCeleb/SpeakerRec/voxceleb_prepare.py", line 464, in prepare_csv_enrol_test
+    signal, fs = torchaudio.load(wav)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/utils.py", line 204, in load
+    return backend.load(uri, frame_offset, num_frames, normalize, channels_first, format, buffer_size)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/soundfile.py", line 27, in load
+    return soundfile_backend.load(uri, frame_offset, num_frames, normalize, channels_first, format)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/torchaudio/_backend/soundfile_backend.py", line 221, in load
+    with soundfile.SoundFile(filepath, "r") as file_:
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/Users/boris/Library/Python/3.9/lib/python/site-packages/soundfile.py", line 1205, in _open
+    file_ptr = openfunction(file, mode_int, self._info)
+KeyboardInterrupt
