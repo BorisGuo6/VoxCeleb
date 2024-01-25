@@ -15,7 +15,7 @@ NOISE_DATASET_URL: https://www.dropbox.com/scl/fi/a09pj97s5ifan81dqhi4n/noises.z
 RIR_DATASET_URL: https://www.dropbox.com/scl/fi/linhy77c36mu10965a836/RIRs.zip?rlkey=pg9cu8vrpn2u173vhiqyu743u&dl=1
 
 # Data files
-data_folder: /home/rlg/projects/sig/VoxCeleb/voxceleb2  # e.g. /path/to/Voxceleb
+data_folder: /Users/boris/Documents/VoxCeleb/voxceleb2  # e.g. /path/to/Voxceleb
 data_folder_noise: !ref <data_folder>/noise # The noisy sequencies for data augmentation will automatically be downloaded here.
 data_folder_rir: !ref <data_folder>/rir # The impulse responses used for data augmentation will automatically be downloaded here.
 train_annotation: !ref <save_folder>/train.csv
@@ -29,7 +29,7 @@ rir_annotation: !ref <save_folder>/rir.csv
 # VoxCeleb1-E (cleaned): https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt.
 # VoxCeleb1-E and VoxCeleb1-H lists are drawn from the VoxCeleb1 training set.
 # Therefore you cannot use any files in VoxCeleb1 for training if you are using these lists for testing.
-verification_file: https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt
+verification_file: /Users/boris/Documents/VoxCeleb/output.txt
 
 split_ratio: [90, 10]
 skip_prep: False

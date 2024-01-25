@@ -1,5 +1,5 @@
-# Generated 2024-01-23 from:
-# /home/rlg/projects/sig/VoxCeleb/SpeakerRec/hparams/verification_ecapa.yaml
+# Generated 2024-01-25 from:
+# /Users/boris/Documents/VoxCeleb/SpeakerRec/hparams/verification_ecapa.yaml
 # yamllint disable
 # ################################
 # Model: Speaker Verification Baseline
@@ -11,7 +11,7 @@ seed: 1234
 __set_seed: !apply:torch.manual_seed [1234]
 
 # Folders and train_log file
-data_folder: /home/rlg/projects/sig/VoxCeleb/voxceleb2 #e.g., /localscratch/voxceleb1
+data_folder: /Users/boris/Documents/VoxCeleb/voxceleb2 #e.g., /localscratch/voxceleb1
 output_folder: results/voxceleb1_2/speaker_verification_ecapa/<seed>
 save_folder: results/voxceleb1_2/speaker_verification_ecapa/1234/save/
 
@@ -21,7 +21,7 @@ save_folder: results/voxceleb1_2/speaker_verification_ecapa/1234/save/
 # VoxCeleb1-E (cleaned): https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/list_test_all2.txt.
 # VoxCeleb1-E and VoxCeleb1-H lists are drawn from the VoxCeleb1 training set.
 # Therefore you cannot use any files in VoxCeleb1 for training if you are using these lists for testing.
-verification_file: https://www.robots.ox.ac.uk/~vgg/data/voxceleb/meta/veri_test2.txt
+verification_file: /Users/boris/Documents/VoxCeleb/output.txt
 
 # Here, the pretrained embedding model trained with train_speaker_embeddings.py hparams/train_ecapa_tdnn.yaml
 # is downloaded from the speechbrain HuggingFace repository.
